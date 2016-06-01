@@ -1,0 +1,14 @@
+module.exports={
+    "jsxToJs":{
+        "basePath":"./public/react/"
+    },
+    "browserify":{
+        "startingFilePath":"./public/react/test.js",
+        "distinationDir":"./public/react/dist",
+        "outputFileName":"main.js",
+        "extensions":[".js",".json"]
+    },
+    "watchify":{
+        "path":"./public/react"
+    }
+}
