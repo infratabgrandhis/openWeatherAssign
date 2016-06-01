@@ -3,6 +3,12 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+.mainContainer{
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
 a {
   color: #00B7FF;
 }

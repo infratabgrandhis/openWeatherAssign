@@ -3,7 +3,7 @@ module.exports={
         "basePath":"./public/react/"
     },
     "browserify":{
-        "startingFilePath":"./public/react/test.js",
+        "startingFilePath":"./public/react/app.js",
         "distinationDir":"./public/react/dist",
         "outputFileName":"main.js",
         "extensions":[".js",".json"]
