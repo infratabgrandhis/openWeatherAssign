@@ -5,17 +5,14 @@ var React = require('react'),
     ButtonToolbar=Bootstrap.ButtonToolbar;
 
 var CityDropdown = React.createClass({displayName: "CityDropdown",
-
     render: function() {
-
         return (
             React.createElement(ButtonToolbar, null, 
-                React.createElement(DropdownButton, {bsStyle: "default", title: "select city", id: "cityDropdown"}, 
-                    React.createElement(MenuItem, {eventKey: "1"}, "Action"), 
-                    React.createElement(MenuItem, {eventKey: "2"}, "Another action"), 
-                    React.createElement(MenuItem, {eventKey: "3", active: true}, "Active Item"), 
-                    React.createElement(MenuItem, {divider: true}), 
-                    React.createElement(MenuItem, {eventKey: "4"}, "Separated link")
+                React.createElement(DropdownButton, {bsStyle: "default", title: this.props.title, id: "cityDropdown", onSelect: this.props.dropdownSelection}, 
+                    React.createElement(MenuItem, {eventKey: "Bangalore"}, "Bangalore"), 
+                    React.createElement(MenuItem, {eventKey: "Hyderabad"}, "Hyderabad"), 
+                    React.createElement(MenuItem, {eventKey: "Chennai"}, "Chennai"), 
+                    React.createElement(MenuItem, {eventKey: "Pune"}, "Pune")
                 )
             )
         );

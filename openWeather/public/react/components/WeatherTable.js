@@ -5,7 +5,7 @@ var React = require('react'),
 var WeatherTable = React.createClass({displayName: "WeatherTable",
     render: function() {
         return (
-            React.createElement(Table, {striped: true, bordered: true, condensed: true, hover: true}, 
+            React.createElement(Table, {bordered: true, condensed: true, hover: true}, 
                 React.createElement("tbody", null, 
                 React.createElement("tr", null, 
                     React.createElement("td", null, "City"), 

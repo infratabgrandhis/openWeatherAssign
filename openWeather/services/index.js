@@ -14,7 +14,7 @@ function getWeatherData(req,res,next){
         .get(url)
         .end(function(err, result){
             if(err){
-                res.status(200).send(err);
+                res.status(302).send(err);
             }else{
                 res.status(200).send(result.body);
             }

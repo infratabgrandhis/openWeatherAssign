@@ -5,7 +5,7 @@ var React = require('react'),
 var WeatherTable = React.createClass({
     render: function() {
         return (
-            <Table striped bordered condensed hover>
+            <Table bordered condensed hover>
                 <tbody>
                 <tr>
                     <td>City</td>
