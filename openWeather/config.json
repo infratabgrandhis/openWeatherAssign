@@ -1,0 +1,14 @@
+{
+  "env":{
+    "production":{
+      "port":3005
+    },
+    "dev":{
+      "port":3005
+    }
+  },
+  "openWhether":{
+    "hostName":"http://api.openweathermap.org/data/2.5/weather",
+    "apiKey":"3c6583431a932bea30552198e84ddfb6"
+  }
+}
