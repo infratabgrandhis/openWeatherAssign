@@ -11,7 +11,8 @@ var HomePage = React.createClass({
         return {
             title:'select city',
             message:"Select city to see Weather data",
-            data:{}
+            data:{},
+            cityList:['Bangalore','Chennai','Hyderabad','Pune']
         }
     },
     dropdownSelection:function (key) {
@@ -31,7 +32,7 @@ var HomePage = React.createClass({
         return (
             <div className="mainContainer">
                 <div id="citydropdown">
-                    <CityDropdown dropdownSelection={this.dropdownSelection} title={this.state.title}/>
+                    <CityDropdown dropdownSelection={this.dropdownSelection} title={this.state.title} cityList={this.state.cityList}/>
                 </div>
                 <div>
                     {dataBlock}
