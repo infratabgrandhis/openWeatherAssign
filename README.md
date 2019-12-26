@@ -1,4 +1,4 @@
-1. After you clone this repo, run `npm install`
+1. After you clone this repo, run `npm install`.
 
 2. Before start the node server, open `config.json` it's in root directory of the application and modify the configurations.`apiKey` should need to modify
 
